@@ -1,4 +1,6 @@
+//合約地址是執行yarn hardhat node時的合約地址,或是部署到區塊鏈時的地址
 export const contractAddress = "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512";
+//abi來自合約compile過後的artifact底下的json檔
 export const abi = [
   {
     inputs: [
